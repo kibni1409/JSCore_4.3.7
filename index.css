@@ -1,0 +1,52 @@
+body{
+    background-color: #C4C4C4;
+}
+
+.hidden{
+    display: none;
+}
+
+li{
+    list-style-type: none;
+    border: 2px solid black;
+    background-color: #E3E3E3;
+    width: 300px;
+}
+ul{
+    margin-left: 50px;
+    margin-top: 0;
+    width: 300px;
+}
+.listSearch li:hover{
+    cursor: pointer;
+    background-color: #65CDF9;
+}
+.output li{
+    background-color: #E27BEB;
+}
+
+.imgOut{
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    float: right;
+    top: -30px;
+    position: relative;
+    border: 0;
+}
+.imgOut:hover{
+    cursor: pointer;
+    left: -5px;
+    top: -35px
+}
+
+ul{
+    padding-inline-start: 0;
+}
+
+.search{
+    margin-left: 50px;
+    width: 300px;
+}
